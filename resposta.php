@@ -37,7 +37,7 @@ include "./cabecalho.php";
                     ?>
                         <div style="margin-left: 15px; margin-right: 15px; margin-bottom: 15px;">
 
-                            <p>Voce Acertou!!!</p>
+                            <p>Você Acertou!!!</p>
                             <p>Sua Resposta: <?php echo $_POST[$valoresArray[$i]] . ") " . $linha[$alternativaSelecionada] ?></p>
                             <p>Resposta Certa: <?php echo $linha["correta"] . ") " . $linha[$alternativaCorreta] ?></p>
                             <div class="acertos">
@@ -50,7 +50,7 @@ include "./cabecalho.php";
                     ?>
                         <div style="margin-left: 15px; margin-right: 15px; margin-bottom: 15px;">
 
-                            <p>Voce Errou!</p>
+                            <p>Você Errou!</p>
                             <p>Sua Resposta: <?php echo $_POST[$valoresArray[$i]] . ") " . $linha[$alternativaSelecionada] ?></p>
                             <p>Resposta Certa: <?php echo $linha["correta"] . ") " . $linha[$alternativaCorreta] ?></p>
                             <div class="acertos">
